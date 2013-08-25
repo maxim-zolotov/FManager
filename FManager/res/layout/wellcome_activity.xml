@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/welcomeToAppText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dip"
+            android:textSize="24sp"
+            android:text="@string/wellcome_to_app" />
+		<Button
+            android:id="@+id/createProfileBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dip"
+            android:layout_below="@+id/welcomeToAppText"
+            android:text="@string/create_profile" />
+        <Button
+            android:id="@+id/chooseProfileBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dip"
+            android:layout_below="@+id/createProfileBtn"
+            android:text="@string/choose_profile" />
+
+</RelativeLayout>
