@@ -4,5 +4,7 @@
     <string name="app_name">FManager</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-
+    <string name="wellcome_to_app">Welcome to FManager!</string>
+	<string name="create_profile">Create profile</string>
+	<string name="choose_profile">Choose profile</string>
 </resources>
